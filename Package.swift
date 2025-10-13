@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MappableMobileFull",
-            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.24.0-full.framework.zip",
-            checksum: "4986fb694a8ed4e92ec27be1668b707e67229ea7d1642ff5968e0486d3a7f7ca"
+            url: "https://mappableworld.s3.eu-west-3.amazonaws.com/MappableMobile-4.17.1-full.framework.zip",
+            checksum: "c9bfae4a4070cd3771e6d8c796a75d3d49551fcaff7905019fedd17e23e02a73"
         ),
         .target(
             name: "MappableMobileFullResources",
@@ -39,7 +39,6 @@ let package = Package(
                 .linkedFramework("CoreTelephony"),
                 .linkedFramework("CoreMotion"),
                 .linkedFramework("DeviceCheck"),
-                .linkedFramework("NetworkExtension"),
                 .linkedLibrary("resolv"),
                 .linkedLibrary("c++"),
             ]
